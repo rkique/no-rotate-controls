@@ -1,6 +1,6 @@
 # Pan Controls!
 
-This is a modified version of ![trackball-controls.js](https://github.com/mrdoob/three.js/blob/master/examples/js/controls/TrackballControls.js) for Three.js that removes the rotate functionality.
+This is a modified version of [trackball-controls.js](https://github.com/mrdoob/three.js/blob/master/examples/js/controls/TrackballControls.js) for Three.js that removes the rotate functionality.
 
 It is optimized for both desktop and mobile, with one-touch, left mouse, and right mouse all mapping to pan. Two touch, middle mouse, or the "S" key can still be used for zooming.
 
