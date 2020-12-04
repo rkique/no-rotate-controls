@@ -1,9 +1,11 @@
 # Pan Controls!
 
 This is a modified version of [trackball-controls.js](https://github.com/mrdoob/three.js/blob/master/examples/js/controls/TrackballControls.js) for Three.js that removes the rotate functionality. See the official [Three.js docs for trackball-controls](https://threejs.org/docs/#examples/en/controls/TrackballControls) as well.
-It is optimized for both desktop and mobile, with one-touch, left mouse, and right mouse all mapping to pan. Two touch, middle mouse, or the "S" key can still be used for zooming.
 
-This makes it the ideal controls for 2D displays utilizing Three.js for parallax.
+It is optimized for both desktop and mobile, with one-touch, left mouse, and right mouse now mapping to pan. 
+Two touch, middle mouse scroll, or holding the "S" key can still be used for zoom.
+
+This makes it the ideal controls for 2D displays that utilize Three.js for parallax.
 
 ![Demo](https://raw.githubusercontent.com/rkique/threejs-pan-controls/master/pan-controls-demo.gif)
 
@@ -20,7 +22,7 @@ renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
 ```
 
-And then add the THREE.PanControls object.
+And then add the THREE.PanControls like any other control.
 
 ```
 var controls = new THREE.PanControls(camera, renderer.domElement);
