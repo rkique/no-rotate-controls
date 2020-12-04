@@ -8,7 +8,7 @@ This makes it the ideal controls for 2D displays utilizing Three.js for parallax
 
 
 Basic usage:
-
+<iframe src='https://gfycat.com/ifr/SneakyNeedyAmericancrow' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
 ```
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
