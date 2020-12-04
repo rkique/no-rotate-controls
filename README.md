@@ -1,6 +1,11 @@
 # Pan Controls!
 
-This is a modified version of trackball-controls.js for Three.js, where one-touch, left mouse, and right mouse all map to pan. Two touch, middle mouse, or the "S" key can still be used for zoom. This makes it the ideal controls for 2D displays utilizing Three.js for parallax.
+This is a modified version of trackball-controls.js for Three.js that removes the rotate functionality.
+
+It is optimized for both desktop and mobile, with one-touch, left mouse, and right mouse all mapping to pan. Two touch, middle mouse, or the "S" key can still be used for zooming.
+
+This makes it the ideal controls for 2D displays utilizing Three.js for parallax.
+
 
 Basic usage:
 
